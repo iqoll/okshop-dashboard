@@ -1,8 +1,19 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Layout from './components/shared/Layout'
+import Dashboard from './components/Dashboard'
+import Products from './components/Products'
+
 function App() {
 	return (
-		<div className='App'>
-			<p className='text-2xl bg-red-100'>OpenShop Dashboard</p>
-		</div>
+		<Router>
+			<Routes>
+				<Route path='/' element={<Layout />}>
+					<Route index={true} element={<Dashboard />} />
+					<Route path='products' element={<Products />} />
+				</Route>
+				<Route path='login' element={<div>Login Page</div>}></Route>
+			</Routes>
+		</Router>
 	)
 }
 
