@@ -2,7 +2,7 @@ import { IoBagHandle, IoCart, IoPeople, IoPieChart } from 'react-icons/io5'
 
 function DashboardStatsGrid() {
 	return (
-		<div className='flex gap-4 w-full'>
+		<div className='flex flex-col md:flex-row gap-4 w-full'>
 			<BoxWrapper>
 				<div className='rounded-full w-12 h-12 flex items-center justify-center bg-sky-500'>
 					<IoBagHandle className='text-2xl text-white' />
