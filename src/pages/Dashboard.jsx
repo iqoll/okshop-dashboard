@@ -1,9 +1,9 @@
 // import { Link } from 'react-router-dom'
-import BuyerProfileChart from '../components/BuyerProfileChart'
-import DashboardStatsGrid from '../components/DashboardStatsGrid'
-import PopularProducts from '../components/PopularProducts'
-import RecentOrders from '../components/RecentOrders'
-import TransactionChart from '../components/TransactionChart'
+import BuyerProfileChart from '../components/dashboard/BuyerProfileChart'
+import DashboardStatsGrid from '../components/dashboard/DashboardStatsGrid'
+import PopularProducts from '../components/dashboard/PopularProducts'
+import RecentOrders from '../components/dashboard/RecentOrders'
+import TransactionChart from '../components/dashboard/TransactionChart'
 
 export default function Dashboard() {
 	return (

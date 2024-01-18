@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { popularProducts } from '../lib/dashboardData'
+import { popularProducts } from '../../lib/dashboardData'
 
 function PopularProducts() {
 	return (

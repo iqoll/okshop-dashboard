@@ -171,7 +171,129 @@ const popularProducts = [
 		product_thumbnail: 'https://source.unsplash.com/100x100?earphone',
 		product_price: '$399.00',
 		product_stock: 453
-	}
+	},	
 ]
 
-export { chartData, buyerData, recentOrdersData , popularProducts}
+const products = [
+	{
+    id: '5432',
+    product_name: 'Dell XPS 15',
+    product_thumbnail: 'https://source.unsplash.com/100x100?laptop',
+    product_price: '$1299.00',
+    product_stock: 78,
+  },
+  {
+    id: '7635',
+    product_name: 'Sony WH-1000XM4 Headphones',
+    product_thumbnail: 'https://source.unsplash.com/100x100?headphones',
+    product_price: '$349.00',
+    product_stock: 102,
+  },
+  {
+    id: '6231',
+    product_name: 'Canon EOS R5 Camera',
+    product_thumbnail: 'https://source.unsplash.com/100x100?camera',
+    product_price: '$3799.00',
+    product_stock: 15,
+  },
+  {
+    id: '8321',
+    product_name: 'Samsung 34-Inch Curved Gaming Monitor',
+    product_thumbnail: 'https://source.unsplash.com/100x100?monitor',
+    product_price: '$799.00',
+    product_stock: 32,
+  },
+  {
+    id: '7843',
+    product_name: 'Fitbit Charge 5',
+    product_thumbnail: 'https://source.unsplash.com/100x100?fitbit',
+    product_price: '$179.00',
+    product_stock: 120,
+  },
+  {
+    id: '3654',
+    product_name: 'Google Pixel 6 Pro',
+    product_thumbnail: 'https://source.unsplash.com/100x100?smartphone',
+    product_price: '$899.00',
+    product_stock: 65,
+  },
+	{
+		id: '3431',
+		product_name: 'Macbook M2 Pro 14"',
+		product_thumbnail: 'https://source.unsplash.com/100x100?macbook',
+		product_price: '$1499.00',
+		product_stock: 341
+	},
+	{
+		id: '1245',
+		product_name: 'Ipad Pro "',
+		product_thumbnail: 'https://source.unsplash.com/100x100?macbook',
+		product_price: '$1499.00',
+		product_stock: 341
+	},
+	{
+		id: '3432',
+		product_name: 'Xiaomi',
+		product_thumbnail: 'https://source.unsplash.com/100x100?smartphone',
+		product_price: '$1499.00',
+		product_stock: 341
+	},
+	{
+		id: '3512',
+		product_name: 'ASUS ROG',
+		product_thumbnail: 'https://source.unsplash.com/100x100?smartphone',
+		product_price: '$1499.00',
+		product_stock: 341
+	},
+	{
+		id: '7633',
+		product_name: 'Samsung Galaxy Buds 2',
+		product_thumbnail: 'https://source.unsplash.com/100x100?earbuds',
+		product_price: '$399.00',
+		product_stock: 24
+	},
+	{
+		id: '6534',
+		product_name: 'Asus Zenbook Pro',
+		product_thumbnail: 'https://source.unsplash.com/100x100?laptop',
+		product_price: '$899.00',
+		product_stock: 56
+	},
+	{
+		id: '9234',
+		product_name: 'LG Flex Canvas',
+		product_thumbnail: 'https://source.unsplash.com/100x100?smartphone',
+		product_price: '$499.00',
+		product_stock: 98
+	},
+	{
+		id: '4314',
+		product_name: 'Apple Magic Touchpad',
+		product_thumbnail: 'https://source.unsplash.com/100x100?touchpad',
+		product_price: '$699.00',
+		product_stock: 0
+	},
+	{
+		id: '4342',
+		product_name: 'Nothing Earbuds One',
+		product_thumbnail: 'https://source.unsplash.com/100x100?earphone',
+		product_price: '$399.00',
+		product_stock: 453
+	},
+	{
+		id: '4452',
+		product_name: 'Samsung Earbuds One',
+		product_thumbnail: 'https://source.unsplash.com/100x100?earphone',
+		product_price: '$399.00',
+		product_stock: 453
+	},
+	{
+		id: '4122',
+		product_name: 'Asus VivoBook',
+		product_thumbnail: 'https://source.unsplash.com/100x100?laptop',
+		product_price: '$399.00',
+		product_stock: 453
+	},
+]
+
+export { chartData, buyerData, recentOrdersData , popularProducts, products}

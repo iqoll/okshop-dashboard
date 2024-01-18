@@ -1,5 +1,5 @@
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer } from 'recharts'
-import { buyerData } from '../lib/dashboardData'
+import { buyerData } from '../../lib/dashboardData'
 
 const RADIAN = Math.PI / 180
 const COLORS = ['#00C49F', '#FFBB28', '#FF8042']

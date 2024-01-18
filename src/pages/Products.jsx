@@ -1,12 +1,11 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+
+import ProductList from '../components/products/ProductList'
 
 export default function Products() {
 	return (
-		<div>
-			<p>Products</p>
-			<Link to='/' className='underline'>
-				Go to Dashboard
-			</Link>
+		<div className='flex flex-col gap-4'>
+			<ProductList />
 		</div>
 	)
 }

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import { recentOrdersData } from '../lib/dashboardData'
-import { getOrderStatus } from '../lib/utils'
+import { recentOrdersData } from '../../lib/dashboardData'
+import { getOrderStatus } from '../../lib/utils'
 
 function RecentOrders() {
 	return (

@@ -10,7 +10,7 @@ import {
 	ResponsiveContainer,
 } from 'recharts'
 
-import { chartData } from '../lib/dashboardData'
+import { chartData } from '../../lib/dashboardData'
 
 export default function TransactionChart() {
 	return (
