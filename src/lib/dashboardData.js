@@ -296,4 +296,28 @@ const products = [
 	},
 ]
 
-export { chartData, buyerData, recentOrdersData , popularProducts, products}
+const salesData = [
+	{
+		name: 'TV & Monitor',
+		sold: 5,
+	},
+	{
+		name: 'Laptop',
+		sold: 50,
+	},
+	{
+		name: 'Tablets',
+		sold: 5,
+	},
+	{
+		name: 'Smartphone',
+		sold: 30,
+	},
+	{
+		name: 'Smart Watch',
+		sold: 15,
+	},
+	// Add more product categories as needed
+]
+
+export { chartData, buyerData, recentOrdersData , popularProducts, products, salesData}
