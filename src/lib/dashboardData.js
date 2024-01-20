@@ -300,22 +300,27 @@ const salesData = [
 	{
 		name: 'TV & Monitor',
 		sold: 5,
+		revenue: 5000,
 	},
 	{
 		name: 'Laptop',
 		sold: 50,
+		revenue: 2500,
 	},
 	{
 		name: 'Tablets',
 		sold: 5,
+		revenue: 1000,
 	},
 	{
 		name: 'Smartphone',
 		sold: 30,
+		revenue: 4000,
 	},
 	{
 		name: 'Smart Watch',
 		sold: 15,
+		revenue: 1500,
 	},
 	// Add more product categories as needed
 ]

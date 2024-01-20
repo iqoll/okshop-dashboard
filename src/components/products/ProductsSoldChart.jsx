@@ -10,6 +10,12 @@ import {
 } from 'recharts'
 import { salesData } from '../../lib/dashboardData'
 
+const normalizedData = salesData.map((product) => ({
+	...product,
+	normalizedSold: product.sold / 100, //  assuming a maximum of 100 units sold
+	normalizedRevenue: product.revenue / 5000, // assuming a maximum of $5000 in revenue
+}))
+
 export default function ProductsSoldChart() {
 	return (
 		<div className='bg-white p-4 flex flex-col flex-1 rounded-sm h-[22rem]'>
@@ -21,7 +27,7 @@ export default function ProductsSoldChart() {
 					<LineChart
 						width={500}
 						height={300}
-						data={salesData}
+						data={normalizedData}
 						margin={{
 							top: 5,
 							right: 30,
@@ -31,14 +37,19 @@ export default function ProductsSoldChart() {
 					>
 						<CartesianGrid strokeDasharray='3 3' />
 						<XAxis dataKey='name' />
-						<YAxis />
+						<YAxis domain={[0, 1]} />
 						<Tooltip />
 						<Legend />
 						<Line
 							type='monotone'
-							dataKey='sold'
+							dataKey='normalizedSold'
 							stroke='#8884d8'
 							activeDot={{ r: 8 }}
+						/>
+						<Line
+							type='monotone'
+							dataKey='normalizedRevenue'
+							stroke='#82ca9d'
 						/>
 					</LineChart>
 				</ResponsiveContainer>
